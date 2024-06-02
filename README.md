@@ -1,2 +1,3 @@
-<h1 align="center">Weather-telegram-bot-in-cpp</a> 
+<h1 align="center">Weather telegram bot on cpp</a> 
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+##Погодный бот написан на языке C++ с использованием библиотеки [tgbot-cpp](https://github.com/reo7sp/tgbot-cpp), и библиотеки [общения с  погодным сервисом](https://github.com/kovdan01/weather-bot/blob/master/src/weather_api.h) and [this file](https://github.com/kovdan01/weather-bot/blob/master/src/weather_api.cpp).
