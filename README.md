@@ -23,7 +23,7 @@ south wind
 ```
 ## Code
 ### The program consists of 4 classes, each class is written in its own *.h file and implemented in a *.cpp file.
-Class OpenWeatherMapApi
+#### Class OpenWeatherMapApi
 Provides communication with the service [OpenWeatherMap](https://openweathermap.org) according to the scheme:
 api.openweathermap.org/data/2.5/forecast?units=metric&q={city name}&appid={API key}.
 The public function takes the name of the city and return a json object received from the service.
