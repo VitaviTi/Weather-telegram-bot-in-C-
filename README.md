@@ -27,3 +27,5 @@ south wind
 Provides communication with the service [OpenWeatherMap](https://openweathermap.org) according to the scheme:
 api.openweathermap.org/data/2.5/forecast?units=metric&q={city name}&appid={API key}.
 The public function takes the name of the city and return a json object received from the service.
+#### Class Weather Text 
+The class that processes the incoming json object into text form for the user. The class allows you to flexibly control the creation of text for the user! Its private part contains handler functions that easily convert json objects into a user-readable form! That's all this class is needed for; it is the flexible change of text that makes this class unique and very important in the program.
